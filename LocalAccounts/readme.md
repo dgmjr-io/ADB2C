@@ -167,7 +167,7 @@ By calling this technical profile, we now satisfy the initial logical step for s
 |InputClaims|Passes the username and password into the POST body of the OpenId request.|
 |OutputClaims| Maps the JWT issued by the authorization server into Azure AD B2C's claim bag. Here we obtain the objectId and authenticationSource, hence it is not shown on the Self-Asserted page.|
 
-To see all the configuration options for an OpenID technical profile, find more [here](https://docs.microsoft.com/en-us/azure/active-directory-b2c/openid-connect-technical-profile).
+To see all the configuration options for an OpenID technical profile, find more [here](https://docs.microsoft.com/azure/active-directory-b2c/openid-connect-technical-profile).
 
 We have now rendered a sign in page to the user, allowed the user to enter their email and password, and finally validated their credentials.
 
@@ -254,7 +254,7 @@ The referenced technical profile is as follows:
 </TechnicalProfile>
 ```
 
-This step does not need configuring any further, but find out more [here](https://docs.microsoft.com/en-us/azure/active-directory-b2c/jwt-issuer-technical-profile).
+This step does not need configuring any further, but find out more [here](https://docs.microsoft.com/azure/active-directory-b2c/jwt-issuer-technical-profile).
 
 ### Handling Sign Up
 
@@ -419,7 +419,7 @@ The referenced technical profile is as follows:
 </TechnicalProfile>
 ```
 
-This step does not need configuring any further, but find out more [here](https://docs.microsoft.com/en-us/azure/active-directory-b2c/jwt-issuer-technical-profile).
+This step does not need configuring any further, but find out more [here](https://docs.microsoft.com/azure/active-directory-b2c/jwt-issuer-technical-profile).
 
 
 ## Relying Party Policy
